@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 ANOS LARA</title>
+    <link rel="shortcut icon" href="Mideas/Imagens/Icone/logo.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/media-query.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="JS/scripts.js"></script>
+</head>
+
+
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <img src="Mideas/Imagens/LOGO/logo 400x 400.png" alt="Logo-15anos-kauanny">
+
+        <i id="burguer" class="material-symbols-rounded" onclick="clickMenu()">menu</i>
+
+        <menu id="itens">
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="#fest">A Festa</a> </li>
+                <li> <a href="#presentes">Lista De Presentes</a> </li>
+                <li> <a href="#confirmar">Confirme Sua Presença</a> </li>
+            </ul>
+        </menu>
+    </header>
+
+    <div id="videoConvite">
+        <video width="720" poster="Mideas/video/thumb (2).png" controls>,
+            <source src="Mideas/video/Convite 15 Anos Kauanny.m4v" type="video/m4v">
+            <source src="Mideas/video/Convite 15 Anos Kauanny.webm" type="video/webm">
+            <source src="Mideas/video/Convite 15 Anos Kauanny.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="cronometro">
+        <h1>Contagem Regressiva</h1>
+
+        <div class="timer">
+            <div class="cont-timer">
+                <div id="days">00</div>
+                <span>Dias</span>
+            </div>
+
+            <div class="cont-timer">
+                <div id="hours">00</div>
+                <span>Horas</span>
+            </div>
+
+            <div class="cont-timer">
+                <div id="minutes">00</div>
+                <span>Minutos</span>
+            </div class="cont-timer">
+
+            <div class="cont-timer">
+                <div id="seconds">00</div>
+                <span>Segundos</span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <article id="festa">
+
+
+            <p>
+                Está chegando o grande dia dos meus 15 anos, e você foi muito importante nessa trajetória. Por isso,
+                criei esta página para te convidar e compartilhar com você os detalhes da minha festa e assim
+                comemorarmos juntos essa data tão especial!!
+            </p>
+
+            <p>
+                Para que tudo seja preparado do melhor modo, é muito importante que confirme sua presença<span
+                    id="bold"> até dia 15/03/2024</span>,
+                clicando no menu <a href="#confirmar">“Confirme sua Presença”</a>.
+
+            </p>
+
+            <p>Não se esqueça de levar o seu cooler com sua bebida preferida 🍻🍹🍸</p>
+
+            <p>
+                Em relação aos presentes, montei uma lista com algumas sugestões para lhe ajudar na escolha, mas claro,
+                fique à vontade para escolher o presente que preferir.
+            </p>
+
+            <p id="chamada">Aguardo vocês nesse grande dia!</p>
+
+            <h1 id="fest">Festa</h1>
+
+            <img src="Mideas/Imagens/festa-15-anos.jpg" alt="Imagem-festa" height="400px">
+
+            <p>A cerimônia será realizada no dia 30 de março de 2024, às 21 horas e 30 minutos, no salão de festas
+                "Recanto Astra".
+            </p>
+
+            <p>Gostaria muito de contar com a presença de todos para celebrarmos esse momento único!</p>
+
+            <p id="endereco">Rodovia João Traficante, KM 9 Condomínio Nova Floresta, Franca - SP, 14402-347</p>
+
+            <div class="localizacao">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.314855050521!2d-47.27784878952054!3d-20.53429455733037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0b03926a8dffb%3A0x8460d8666ce04198!2sChacara%20Recanto%20Astra!5e0!3m2!1spt-BR!2sbr!4v1707136685031!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+
+        </article>
+
+    </main>
+
+    <article id="presentes">
+
+        <h1>Lista De Presentes</h1>
+
+        <h2> Acessórios</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/acessorio_1.png" alt="Acessórios-1">
+            <img src="Mideas/Imagens/Lista de presente/acessorio_2.png" alt="Acessórios-2">
+        </div>
+
+        <h2> Blusinhas - Tamanho P</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/blusa_1.png" alt="Blusa-1">
+            <img src="Mideas/Imagens/Lista de presente/blusa_2.png" alt="Blusa-2">
+        </div>
+
+        <h2> Shorts - Tamanho 34</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/short_1.png" alt="short-1">
+            <img src="Mideas/Imagens/Lista de presente/short_2.png" alt="short-2">
+        </div>
+
+        <h2> Calças - Tamanho 34</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/calça_1.png" alt="calça-1">
+            <img src="Mideas/Imagens/Lista de presente/calça_2.png" alt="calça-2">
+        </div>
+
+        <h2> Sapatos - Tamanho 37</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/tenis_1.png" alt="tenis-1">
+            <img src="Mideas/Imagens/Lista de presente/tenis_2.png" alt="tenis-2">
+        </div>
+
+        <h2> PIX</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/pix.png" alt="logo-pix">
+            <img src="Mideas/Imagens/Lista de presente/Qr-code.png" alt="qr-code">
+
+        </div>
+    </article>
+
+    <main>
+        <article id="confirmar">
+
+            <h1>Confirme sua Presença</h1>
+
+            <a href="https://wa.me/5516991991565?text=Ol%C3%A1%20Beatris,%20fui%20convidado%20para%20a%20festa%20de%2015%20anos%20da%20Lara%20no%20dia%2030/03/2024%20%0AGostaria%20de%20confirmar%20minha%20presen%C3%A7a."
+                target="_blank"> <img src="Mideas/Imagens/Confirmacao.png" alt="Confimração-de-presença"></a>
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
